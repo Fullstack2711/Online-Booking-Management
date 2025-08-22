@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { Route } from "@/routers/types";
 import { usePathname } from "next/navigation";
 import React from "react";
 
@@ -32,7 +33,7 @@ export const Nav = () => {
           return (
             <Link
               key={item}
-              href={item}
+              href={item as Route}
               className={`block py-5 md:py-8 border-b-2 flex-shrink-0 capitalize ${
                 isActive
                   ? "border-primary-500 font-medium"
