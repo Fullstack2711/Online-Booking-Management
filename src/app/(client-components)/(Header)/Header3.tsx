@@ -109,14 +109,14 @@ const Header3: FC<Header3Props> = ({ className = "" }) => {
             onClick={() => setShowHeroSearch("location")}
             className="block pl-5 pr-4 cursor-pointer py-3"
           >
-            Location
+            Manzil
           </span>
           <span className="h-5 w-[1px] bg-neutral-300 dark:bg-neutral-700"></span>
           <span
             onClick={() => setShowHeroSearch("dates")}
             className="block px-4 cursor-pointer py-3 "
           >
-            Check In
+            Kirish sanasi
           </span>
           <span className="h-5 w-[1px] bg-neutral-300 dark:bg-neutral-700"></span>
           <span
@@ -125,7 +125,7 @@ const Header3: FC<Header3Props> = ({ className = "" }) => {
             }}
             className="block px-4 cursor-pointer font-normal py-3"
           >
-            Add guests
+            Mehmonlar qo‘shish
           </span>
         </div>
 
@@ -185,7 +185,7 @@ const Header3: FC<Header3Props> = ({ className = "" }) => {
                   href={"/add-listing/1"}
                   className="self-center hidden xl:inline-flex px-4 py-2 border border-neutral-300 hover:border-neutral-400 dark:border-neutral-700 rounded-full items-center text-sm text-gray-700 dark:text-neutral-300 font-medium focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
                 >
-                  List your property
+                  Malumotlarni joylashtiring
                 </Link>
 
                 <NotifyDropdown />

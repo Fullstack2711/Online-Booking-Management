@@ -137,22 +137,22 @@ function PageHome2() {
               id: 1,
               img: HIW1img,
               imgDark: HIW1imgDark,
-              title: "Smart search",
-              desc: "Name the area or type of home you are looking for the search bar. Our app will find you the perfect match.",
+              title: "Aqlli qidiruv",
+              desc: "Qidiruv paneliga hudud yoki uy turini kiriting. Ilovamiz sizga mos variantlarni topadi.",
             },
             {
               id: 2,
               img: HIW2img,
               imgDark: HIW2imgDark,
-              title: "Choose property",
-              desc: "From the number of options our app will provide, you can select any property that you like to explore.",
+              title: "Mulkni tanlang",
+              desc: "Ilovamiz taklif qilgan ko‘plab variantlardan xohlagan mulkni tanlashingiz mumkin.",
             },
             {
               id: 3,
               img: HIW3img,
               imgDark: HIW3imgDark,
-              title: "Book you property",
-              desc: "Find a home or space from our search bar. Enter your specific location, property type and price range.",
+              title: "Mulkni bron qiling",
+              desc: "Qidiruv panelidan uy yoki joy toping. Aniq manzil, mulk turi va narx oralig‘ini kiriting.",
             },
           ]}
         />
@@ -170,8 +170,8 @@ function PageHome2() {
           categories={DEMO_CATS_2}
           categoryCardType="card4"
           itemPerRow={4}
-          heading="Suggestions for discovery"
-          subHeading="Popular places to stay that Chisfis recommends for you"
+          heading="Kashf etish uchun tavsiyalar"
+          subHeading="Chisfis siz uchun tavsiya qiladigan mashhur joylar"
         />
 
         <div className="relative py-16">
@@ -180,8 +180,8 @@ function PageHome2() {
         </div>
 
         <SectionSliderNewCategories
-          heading="Explore by types of stays"
-          subHeading="Explore houses based on 10 types of stays"
+          heading="Turar joy turlari bo‘yicha o‘rganing"
+          subHeading="10 xil turar joy asosida uylarni o‘rganing"
           categoryCardType="card5"
           itemPerRow={5}
         />

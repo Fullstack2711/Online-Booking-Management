@@ -1,6 +1,5 @@
 "use client";
 
-import { Route } from "@/routers/types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -8,7 +7,8 @@ import React from "react";
 export const Nav = () => {
   const pathname = usePathname();
 
-  const listNav: Route[] = [
+  // Oddiy string[] bo'lishi kerak
+  const listNav: string[] = [
     "/account",
     "/account-savelists",
     "/account-password",
@@ -20,6 +20,15 @@ export const Nav = () => {
       <div className="flex space-x-8 md:space-x-14 overflow-x-auto hiddenScrollbar">
         {listNav.map((item) => {
           const isActive = pathname === item;
+
+          // O'zbekcha label
+          let label = item;
+          if (item === "/account") label = "Profil";
+          else if (item === "/account-savelists") label = "Saqlanganlar";
+          else if (item === "/account-password") label = "Parol";
+          else if (item === "/account-billing") label = "To'lovlar";
+          else label = item.replace("-", " ").replace("/", " ");
+
           return (
             <Link
               key={item}
@@ -30,7 +39,7 @@ export const Nav = () => {
                   : "border-transparent"
               }`}
             >
-              {item.replace("-", " ").replace("/", " ")}
+              {label}
             </Link>
           );
         })}

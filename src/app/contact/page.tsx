@@ -28,7 +28,7 @@ const PageContact: FC<PageContactProps> = ({}) => {
     <div className={`nc-PageContact overflow-hidden`}>
       <div className="mb-24 lg:mb-32">
         <h2 className="my-16 sm:my-20 flex items-center text-3xl leading-[115%] md:text-5xl md:leading-[115%] font-semibold text-neutral-900 dark:text-neutral-100 justify-center">
-          Contact
+          Aloqa
         </h2>
         <div className="container max-w-7xl mx-auto">
           <div className="flex-shrink-0 grid grid-cols-1 sm:grid-cols-2 gap-12 ">
@@ -53,30 +53,30 @@ const PageContact: FC<PageContactProps> = ({}) => {
             <div>
               <form className="grid grid-cols-1 gap-6" action="#" method="post">
                 <label className="block">
-                  <Label>Full name</Label>
+                  <Label>To‘liq ism</Label>
 
                   <Input
-                    placeholder="Example Doe"
+                    placeholder="Ismingiz"
                     type="text"
                     className="mt-1"
                   />
                 </label>
                 <label className="block">
-                  <Label>Email address</Label>
+                  <Label>Email manzil</Label>
 
                   <Input
                     type="email"
-                    placeholder="example@example.com"
+                    placeholder="email@example.com"
                     className="mt-1"
                   />
                 </label>
                 <label className="block">
-                  <Label>Message</Label>
+                  <Label>Xabar</Label>
 
                   <Textarea className="mt-1" rows={6} />
                 </label>
                 <div>
-                  <ButtonPrimary type="submit">Send Message</ButtonPrimary>
+                  <ButtonPrimary type="submit">Xabar yuborish</ButtonPrimary>
                 </div>
               </form>
             </div>

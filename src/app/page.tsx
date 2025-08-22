@@ -18,7 +18,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "1",
     href: "/listing-stay-map",
-    name: "New Yourk",
+  name: "Nyu-York",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -27,7 +27,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "2",
     href: "/listing-stay-map",
-    name: "Singapore",
+  name: "Singapur",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -36,7 +36,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "3",
     href: "/listing-stay-map",
-    name: "Paris",
+  name: "Parij",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -45,7 +45,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "4",
     href: "/listing-stay-map",
-    name: "London",
+  name: "London",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -54,7 +54,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "5",
     href: "/listing-stay-map",
-    name: "Tokyo",
+  name: "Tokio",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -63,7 +63,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "6",
     href: "/listing-stay-map",
-    name: "Maldives",
+  name: "Maldiv orollari",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -72,7 +72,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "7",
     href: "/listing-stay-map",
-    name: "Italy",
+  name: "Italiya",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -84,7 +84,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "1",
     href: "/listing-stay-map",
-    name: "Enjoy the great cold",
+  name: "Ajoyib sovuqlikdan bahra oling",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -93,7 +93,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "2",
     href: "/listing-stay-map",
-    name: "Sleep in a floating way",
+  name: "Suv ustida uxlang",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -102,7 +102,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "3",
     href: "/listing-stay-map",
-    name: "In the billionaire's house",
+  name: "Milliarder uyida",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -111,7 +111,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "4",
     href: "/listing-stay-map",
-    name: "Cool in the deep forest",
+  name: "Qalin o‘rmon bag‘rida dam oling",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -120,7 +120,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "5",
     href: "/listing-stay-map",
-    name: "In the billionaire's house",
+  name: "Milliarder uyida",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -129,7 +129,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "6",
     href: "/listing-stay-map",
-    name: "In the billionaire's house",
+  name: "Milliarder uyida",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -138,7 +138,7 @@ const DEMO_CATS_2: TaxonomyType[] = [
   {
     id: "7",
     href: "/listing-stay-map",
-    name: "Cool in the deep forest",
+  name: "Qalin o‘rmon bag‘rida dam oling",
     taxonomy: "category",
     count: 188288,
     thumbnail:
@@ -171,8 +171,8 @@ function PageHome() {
             categories={DEMO_CATS_2}
             categoryCardType="card4"
             itemPerRow={4}
-            heading="Suggestions for discovery"
-            subHeading="Popular places to stay that Chisfis recommends for you"
+              heading="Kashf etish uchun tavsiyalar"
+              subHeading="Chisfis siz uchun tavsiya qiladigan mashhur joylar"
             sliderStyle="style2"
           />
         </div>
@@ -192,8 +192,8 @@ function PageHome() {
         </div>
 
         <SectionSliderNewCategories
-          heading="Explore by types of stays"
-          subHeading="Explore houses based on 10 types of stays"
+            heading="Turar joy turlari bo‘yicha o‘rganing"
+            subHeading="10 xil turar joy asosida uylarni o‘rganing"
           categoryCardType="card5"
           itemPerRow={5}
         />

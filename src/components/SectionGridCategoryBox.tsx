@@ -15,7 +15,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "1",
     href: "/listing-stay-map",
-    name: "New Yourk",
+    name: "Nyu-York",
     taxonomy: "category",
     count: 1882,
     thumbnail:
@@ -24,7 +24,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "2",
     href: "/listing-stay-map",
-    name: "Singapore",
+    name: "Singapur",
     taxonomy: "category",
     count: 8288,
     thumbnail:
@@ -33,7 +33,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "3",
     href: "/listing-stay-map",
-    name: "Paris",
+    name: "Parij",
     taxonomy: "category",
     count: 1288,
     thumbnail:
@@ -51,7 +51,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "5",
     href: "/listing-stay-map",
-    name: "Tokyo",
+    name: "Tokio",
     taxonomy: "category",
     count: 323,
     thumbnail:
@@ -60,7 +60,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "6",
     href: "/listing-stay-map",
-    name: "Maldives",
+    name: "Maldiv orollari",
     taxonomy: "category",
     count: 2223,
     thumbnail:
@@ -69,7 +69,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "7",
     href: "/listing-stay-map",
-    name: "New Yourk",
+    name: "Nyu-York",
     taxonomy: "category",
     count: 1775,
     thumbnail:
@@ -78,7 +78,7 @@ const DEMO_CATS: TaxonomyType[] = [
   {
     id: "8",
     href: "/listing-stay-map",
-    name: "Singapore",
+    name: "Singapur",
     taxonomy: "category",
     count: 1288,
     thumbnail:
@@ -106,10 +106,10 @@ const SectionGridCategoryBox: React.FC<SectionGridCategoryBoxProps> = ({
   return (
     <div className={`nc-SectionGridCategoryBox relative ${className}`}>
       <Heading
-        desc="Discover great places near where you live"
+        desc="Yaqin atrofdagi ajoyib joylarni kashf eting"
         isCenter={headingCenter}
       >
-        Explore nearby
+        Yaqin atrofni o‘rganing
       </Heading>
       <div className={`grid ${gridClassName} gap-5 sm:gap-6 md:gap-8`}>
         {categories.map((item, i) => (

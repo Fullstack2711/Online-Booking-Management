@@ -13,13 +13,13 @@ import React, { Fragment, useState } from "react";
 import ButtonSecondary from "@/shared/ButtonSecondary";
 
 const AccountSavelists = () => {
-  let [categories] = useState(["Stays", "Experiences", "Cars"]);
+  let [categories] = useState(["Turar joylar", "Tajriba", "Mashinalar"]);
 
   const renderSection1 = () => {
     return (
       <div className="space-y-6 sm:space-y-8">
         <div>
-          <h2 className="text-3xl font-semibold">Save lists</h2>
+          <h2 className="text-3xl font-semibold">Saqlanganlar</h2>
         </div>
         <div className="w-14 border-b border-neutral-200 dark:border-neutral-700"></div>
 
@@ -50,7 +50,7 @@ const AccountSavelists = () => {
                   ))}
                 </div>
                 <div className="flex mt-11 justify-center items-center">
-                  <ButtonSecondary>Show me more</ButtonSecondary>
+                  <ButtonSecondary>Ko‘proq ko‘rsatish</ButtonSecondary>
                 </div>
               </Tab.Panel>
               <Tab.Panel className="mt-8">
@@ -62,7 +62,7 @@ const AccountSavelists = () => {
                   )}
                 </div>
                 <div className="flex mt-11 justify-center items-center">
-                  <ButtonSecondary>Show me more</ButtonSecondary>
+                  <ButtonSecondary>Ko‘proq ko‘rsatish</ButtonSecondary>
                 </div>
               </Tab.Panel>
               <Tab.Panel className="mt-8">
@@ -72,7 +72,7 @@ const AccountSavelists = () => {
                   ))}
                 </div>
                 <div className="flex mt-11 justify-center items-center">
-                  <ButtonSecondary>Show me more</ButtonSecondary>
+                  <ButtonSecondary>Ko‘proq ko‘rsatish</ButtonSecondary>
                 </div>
               </Tab.Panel>
             </Tab.Panels>

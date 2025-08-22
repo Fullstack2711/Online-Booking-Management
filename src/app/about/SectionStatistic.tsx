@@ -12,18 +12,18 @@ const FOUNDER_DEMO: Statistic[] = [
     id: "1",
     heading: "10 million",
     subHeading:
-      "Articles have been public around the world (as of Sept. 30, 2021)",
+      "Maqolalar butun dunyo bo‘ylab e’lon qilingan (2021-yil 30-sentabr holatiga ko‘ra)",
   },
   {
     id: "2",
     heading: "100,000",
-    subHeading: "Registered users account (as of Sept. 30, 2021)",
+    subHeading: "Ro‘yxatdan o‘tgan foydalanuvchilar (2021-yil 30-sentabr holatiga ko‘ra)",
   },
   {
     id: "3",
     heading: "220+",
     subHeading:
-      "Countries and regions have our presence (as of Sept. 30, 2021)",
+      "Mamlakat va hududlarda faoliyat yuritamiz (2021-yil 30-sentabr holatiga ko‘ra)",
   },
 ];
 
@@ -35,10 +35,9 @@ const SectionStatistic: FC<SectionStatisticProps> = ({ className = "" }) => {
   return (
     <div className={`nc-SectionStatistic relative ${className}`}>
       <Heading
-        desc=" We’re impartial and independent, and every day we create distinctive,
-          world-class programmes and content"
+        desc="Biz xolis va mustaqilmiz, har kuni o‘ziga xos, dunyo darajasidagi dasturlar va kontent yaratamiz."
       >
-        🚀 Fast Facts
+        🚀 Qisqa faktlar
       </Heading>
       <div className="grid md:grid-cols-2 gap-6 lg:grid-cols-3 xl:gap-8">
         {FOUNDER_DEMO.map((item) => (

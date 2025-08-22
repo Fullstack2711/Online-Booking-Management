@@ -26,23 +26,23 @@ const DEMO_DATA = [
   {
     id: 1,
     clientName: "Tiana Abie",
-    clientAddress: "Malaysia",
+    clientAddress: "Malayziya",
     content:
-      "This place is exactly like the picture posted on Chisfis. Great service, we had a great stay!",
+      "Bu joy Chisfisda joylashtirilgan rasmga aynan mos keladi. Ajoyib xizmat, biz juda yaxshi dam oldik!",
   },
   {
     id: 2,
     clientName: "Lennie Swiffan",
     clientAddress: "London",
     content:
-      "This place is exactly like the picture posted on Chisfis. Great service, we had a great stay!",
+      "Bu joy Chisfisda joylashtirilgan rasmga aynan mos keladi. Ajoyib xizmat, biz juda yaxshi dam oldik!",
   },
   {
     id: 3,
     clientName: "Berta Emili",
-    clientAddress: "Tokyo",
+    clientAddress: "Tokio",
     content:
-      "This place is exactly like the picture posted on Chisfis. Great service, we had a great stay!",
+      "Bu joy Chisfisda joylashtirilgan rasmga aynan mos keladi. Ajoyib xizmat, biz juda yaxshi dam oldik!",
   },
 ];
 
@@ -117,8 +117,8 @@ const SectionClientSay: FC<SectionClientSayProps> = ({
 
   return (
     <div className={`nc-SectionClientSay relative ${className} `}>
-      <Heading desc="Let's see what people think of Chisfis" isCenter>
-        Good news from far away
+      <Heading desc="Foydalanuvchilarimiz Chisfis haqida nima deydi?" isCenter>
+        Yiroqdan yaxshi xabarlar
       </Heading>
       <div className="relative md:mb-16 max-w-2xl mx-auto">
         {renderBg()}

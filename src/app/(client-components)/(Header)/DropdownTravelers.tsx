@@ -16,27 +16,27 @@ interface SolutionItem {
 
 const solutions: SolutionItem[] = [
   {
-    name: "Stays",
-    description: "Stays rental description ",
+    name: "Uy-joylar",
+    description: "Ijaraga uy-joylar haqida ma'lumot",
     href: "/listing-stay",
     active: true,
     icon: IconOne,
   },
   {
-    name: "Real Estate",
-    description: "Real Estate description",
+    name: "Ko'chmas mulk",
+    description: "Ko'chmas mulk haqida ma'lumot",
     href: "/listing-real-estate",
     icon: IconTwo,
   },
   {
-    name: "Cars",
-    description: "Car rental description",
+    name: "Avtomobillar",
+    description: "Avtomobil ijarasi haqida ma'lumot",
     href: "/listing-car",
     icon: IconThree,
   },
   {
-    name: "Experiences",
-    description: "Tour and experiences",
+    name: "Tajriba va sayohatlar",
+    description: "Ekskursiya va tajribalar",
     href: "/listing-experiences",
     icon: IconFour,
   },
@@ -52,7 +52,7 @@ export default function DropdownTravelers() {
                 group self-center py-2 h-10 sm:h-12 rounded-md text-sm sm:text-base font-medium hover:text-opacity-100 focus:outline-none`}
           >
             <div className={` inline-flex items-center `} role="button">
-              <span>Travelers</span>
+              <span>Sayohat turlari</span>
               <ChevronDownIcon
                 className={`${open ? "-rotate-180" : "text-opacity-70 "}
                   ml-2 h-5 w-5 text-neutral-700 group-hover:text-opacity-80 transition ease-in-out duration-150 `}
@@ -101,11 +101,11 @@ export default function DropdownTravelers() {
                   >
                     <span className="flex items-center">
                       <span className="text-sm font-medium ">
-                        Documentation
+                        Qo‘llanma
                       </span>
                     </span>
                     <span className="block text-sm text-gray-500 dark:text-neutral-400">
-                      Start integrating products and tools
+                      Mahsulot va vositalarni birlashtirishni boshlang
                     </span>
                   </Link>
                 </div>

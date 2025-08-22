@@ -12,7 +12,7 @@ const AccountPage = () => {
   return (
     <div className="space-y-6 sm:space-y-8">
       {/* HEADING */}
-      <h2 className="text-3xl font-semibold">Account infomation</h2>
+      <h2 className="text-3xl font-semibold">Profil ma'lumotlari</h2>
       <div className="w-14 border-b border-neutral-200 dark:border-neutral-700"></div>
       <div className="flex flex-col md:flex-row">
         <div className="flex-shrink-0 flex items-start">
@@ -35,7 +35,7 @@ const AccountPage = () => {
                 />
               </svg>
 
-              <span className="mt-1 text-xs">Change Image</span>
+              <span className="mt-1 text-xs">Rasmni o‘zgartirish</span>
             </div>
             <input
               type="file"
@@ -45,21 +45,21 @@ const AccountPage = () => {
         </div>
         <div className="flex-grow mt-10 md:mt-0 md:pl-16 max-w-3xl space-y-6">
           <div>
-            <Label>Name</Label>
+            <Label>Ism</Label>
             <Input className="mt-1.5" defaultValue="Eden Tuan" />
           </div>
           {/* ---- */}
           <div>
-            <Label>Gender</Label>
+            <Label>Jinsi</Label>
             <Select className="mt-1.5">
-              <option value="Male">Male</option>
-              <option value="Female">Female</option>
-              <option value="Other">Other</option>
+              <option value="Male">Erkak</option>
+              <option value="Female">Ayol</option>
+              <option value="Other">Boshqa</option>
             </Select>
           </div>
           {/* ---- */}
           <div>
-            <Label>Username</Label>
+            <Label>Foydalanuvchi nomi</Label>
             <Input className="mt-1.5" defaultValue="@eden_tuan" />
           </div>
           {/* ---- */}
@@ -69,26 +69,26 @@ const AccountPage = () => {
           </div>
           {/* ---- */}
           <div className="max-w-lg">
-            <Label>Date of birth</Label>
+            <Label>Tug‘ilgan sana</Label>
             <Input className="mt-1.5" type="date" defaultValue="1990-07-22" />
           </div>
           {/* ---- */}
           <div>
-            <Label>Addess</Label>
+            <Label>Manzil</Label>
             <Input className="mt-1.5" defaultValue="New york, USA" />
           </div>
           {/* ---- */}
           <div>
-            <Label>Phone number</Label>
+            <Label>Telefon raqami</Label>
             <Input className="mt-1.5" defaultValue="003 888 232" />
           </div>
           {/* ---- */}
           <div>
-            <Label>About you</Label>
+            <Label>O‘zingiz haqingizda</Label>
             <Textarea className="mt-1.5" defaultValue="..." />
           </div>
           <div className="pt-2">
-            <ButtonPrimary>Update info</ButtonPrimary>
+            <ButtonPrimary>Ma'lumotlarni yangilash</ButtonPrimary>
           </div>
         </div>
       </div>

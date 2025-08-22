@@ -19,7 +19,7 @@ import SocialsList from "@/shared/SocialsList";
 export interface AuthorPageProps {}
 
 const AuthorPage: FC<AuthorPageProps> = ({}) => {
-  let [categories] = useState(["Stays", "Experiences", "Car for rent"]);
+  let [categories] = useState(["Turar joylar", "Tajriba", "Ijaraga mashina"]);
 
   const renderSidebar = () => {
     return (
@@ -38,8 +38,8 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
 
         {/* ---- */}
         <p className="text-neutral-500 dark:text-neutral-400">
-          Providing lake views, The Symphony 9 Tam Coc in Ninh Binh provides
-          accommodation, an outdoor.
+          Ko‘l manzaralari, The Symphony 9 Tam Coc, Ninh Binhda tashqi joy va
+          turar joy taklif qiladi.
         </p>
 
         {/* ---- */}
@@ -69,7 +69,7 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
               />
             </svg>
             <span className="text-neutral-6000 dark:text-neutral-300">
-              Ha Noi, Viet Nam
+              Xanoi, Vetnam
             </span>
           </div>
           <div className="flex items-center space-x-4">
@@ -88,7 +88,7 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
               />
             </svg>
             <span className="text-neutral-6000 dark:text-neutral-300">
-              Speaking English
+              Ingliz tilida so‘zlashadi
             </span>
           </div>
 
@@ -108,7 +108,7 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
               />
             </svg>
             <span className="text-neutral-6000 dark:text-neutral-300">
-              Joined in March 2016
+              2016 yil mart oyida qo‘shilgan
             </span>
           </div>
         </div>
@@ -120,10 +120,9 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
     return (
       <div className="listingSection__wrap">
         <div>
-          <h2 className="text-2xl font-semibold">{`Kevin Francis's listings`}</h2>
+          <h2 className="text-2xl font-semibold">{`Kevin Francis’ ro‘yxatlari`}</h2>
           <span className="block mt-2 text-neutral-500 dark:text-neutral-400">
-            {`Kevin Francis's listings is very rich, 5 star reviews help him to be
-            more branded.`}
+            {`Kevin Francis’ ro‘yxatlari juda boy, 5 yulduzli sharhlar unga brend bo‘lishga yordam beradi.`}
           </span>
         </div>
         <div className="w-14 border-b border-neutral-200 dark:border-neutral-700"></div>
@@ -191,7 +190,7 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
     return (
       <div className="listingSection__wrap">
         {/* HEADING */}
-        <h2 className="text-2xl font-semibold">Reviews (23 reviews)</h2>
+        <h2 className="text-2xl font-semibold">Sharhlar (23 ta sharh)</h2>
         <div className="w-14 border-b border-neutral-200 dark:border-neutral-700"></div>
 
         {/* comment */}
@@ -201,7 +200,7 @@ const AuthorPage: FC<AuthorPageProps> = ({}) => {
           <CommentListing hasListingTitle className="py-8" />
           <CommentListing hasListingTitle className="py-8" />
           <div className="pt-8">
-            <ButtonSecondary>View more 20 reviews</ButtonSecondary>
+            <ButtonSecondary>Yana 20 ta sharhni ko‘rish</ButtonSecondary>
           </div>
         </div>
       </div>

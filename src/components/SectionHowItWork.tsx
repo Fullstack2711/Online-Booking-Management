@@ -21,20 +21,20 @@ const DEMO_DATA: SectionHowItWorkProps["data"] = [
   {
     id: 1,
     img: HIW1img,
-    title: "Book & relax",
-    desc: "Let each trip be an inspirational journey, each room a peaceful space",
+    title: "Bron qiling va dam oling",
+    desc: "Har bir sayohat ilhom manbai, har bir xona esa osoyishta makon bo‘lsin",
   },
   {
     id: 2,
     img: HIW2img,
-    title: "Smart checklist",
-    desc: "Let each trip be an inspirational journey, each room a peaceful space",
+    title: "Aqlli ro‘yxat",
+    desc: "Har bir sayohat ilhom manbai, har bir xona esa osoyishta makon bo‘lsin",
   },
   {
     id: 3,
     img: HIW3img,
-    title: "Save more",
-    desc: "Let each trip be an inspirational journey, each room a peaceful space",
+    title: "Ko‘proq tejang",
+    desc: "Har bir sayohat ilhom manbai, har bir xona esa osoyishta makon bo‘lsin",
   },
 ];
 
@@ -47,8 +47,8 @@ const SectionHowItWork: FC<SectionHowItWorkProps> = ({
       className={`nc-SectionHowItWork  ${className}`}
       data-nc-id="SectionHowItWork"
     >
-      <Heading isCenter desc="Keep calm & travel on">
-        How it work
+      <Heading isCenter desc="Xotirjam bo‘ling va sayohat qiling">
+        Qanday ishlaydi
       </Heading>
       <div className="mt-20 relative grid md:grid-cols-3 gap-20">
         <Image

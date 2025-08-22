@@ -50,9 +50,9 @@ const CommentListing: FC<CommentListingProps> = ({
               {hasListingTitle && (
                 <>
                   <span className="text-neutral-500 dark:text-neutral-400 font-normal">
-                    {` review in `}
+                    {` sharh joyi: `}
                   </span>
-                  <a href="/">The Lounge & Bar</a>
+                  <a href="/">Lounge & Bar</a>
                 </>
               )}
             </div>

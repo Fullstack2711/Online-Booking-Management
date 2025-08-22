@@ -59,8 +59,8 @@ const FlightCard: FC<FlightCardProps> = ({ className = "", data }) => {
           </div>
           <div className="border-l border-neutral-200 dark:border-neutral-700 md:mx-6 lg:mx-10"></div>
           <ul className="text-sm text-neutral-500 dark:text-neutral-400 space-y-1 md:space-y-2">
-            <li>Trip time: 7 hours 45 minutes</li>
-            <li>ANA · Business class · Boeing 787 · NH 847</li>
+            <li>Sayohat vaqti: 7 soat 45 daqiqa</li>
+            <li>ANA · Biznes klass · Boeing 787 · NH 847</li>
           </ul>
         </div>
       </div>
@@ -74,9 +74,9 @@ const FlightCard: FC<FlightCardProps> = ({ className = "", data }) => {
         {renderDetailTop()}
         <div className="my-7 md:my-10 space-y-5 md:pl-24">
           <div className="border-t border-neutral-200 dark:border-neutral-700" />
-          <div className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
-            Transit time: 15 hours 45 minutes - Bangkok (BKK)
-          </div>
+            <div className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base">
+            Tranzit vaqti: 15 soat 45 daqiqa - Bangkok (BKK)
+            </div>
           <div className="border-t border-neutral-200 dark:border-neutral-700" />
         </div>
         {renderDetailTop()}
@@ -137,6 +137,7 @@ const FlightCard: FC<FlightCardProps> = ({ className = "", data }) => {
 
             <div className="text-sm text-neutral-500 font-normal mt-0.5">
               <span className="VG3hNb">Nonstop</span>
+                <span className="VG3hNb">To‘xtovsiz</span>
               <span className="mx-2">·</span>
               <span>7h 45m</span>
               <span className="mx-2">·</span>
@@ -176,7 +177,7 @@ const FlightCard: FC<FlightCardProps> = ({ className = "", data }) => {
               </span>
             </div>
             <div className="text-xs sm:text-sm text-neutral-500 font-normal mt-0.5">
-              round-trip
+                ikki tomonga chipta
             </div>
           </div>
         </div>

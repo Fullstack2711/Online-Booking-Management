@@ -14,8 +14,8 @@ export interface LocationInputProps {
 
 const LocationInput: FC<LocationInputProps> = ({
   autoFocus = false,
-  placeHolder = "Location",
-  desc = "Where are you going?",
+  placeHolder = "Manzil",
+  desc = "Qayerga bormoqchisiz?",
   className = "nc-flex-1.5",
   divHideVerticalLineClass = "left-10 -right-0.5",
 }) => {
@@ -62,18 +62,19 @@ const LocationInput: FC<LocationInputProps> = ({
   };
 
   const renderRecentSearches = () => {
+    const recentItems = [
+      "Hamptons, Suffolk County, NY",
+      "Las-Vegas, AQSH",
+      "Ueno, Taito, Tokio",
+      "Ikebukuro, Toshima, Tokio",
+    ];
     return (
       <>
         <h3 className="block mt-2 sm:mt-0 px-4 sm:px-8 font-semibold text-base sm:text-lg text-neutral-800 dark:text-neutral-100">
-          Recent searches
+          Oxirgi qidiruvlar
         </h3>
         <div className="mt-2">
-          {[
-            "Hamptons, Suffolk County, NY",
-            "Las Vegas, NV, United States",
-            "Ueno, Taito, Tokyo",
-            "Ikebukuro, Toshima, Tokyo",
-          ].map((item) => (
+          {recentItems.map((item) => (
             <span
               onClick={() => handleSelectLocation(item)}
               key={item}
@@ -93,14 +94,15 @@ const LocationInput: FC<LocationInputProps> = ({
   };
 
   const renderSearchValue = () => {
+    const searchItems = [
+      "Hanoi, Vyetnam",
+      "San-Diego, AQSH",
+      "Humboldt Park, Chikago, IL",
+      "Bangor, Shimoliy Irlandiya",
+    ];
     return (
       <>
-        {[
-          "Ha Noi, Viet Nam",
-          "San Diego, CA",
-          "Humboldt Park, Chicago, IL",
-          "Bangor, Northern Ireland",
-        ].map((item) => (
+        {searchItems.map((item) => (
           <span
             onClick={() => handleSelectLocation(item)}
             key={item}

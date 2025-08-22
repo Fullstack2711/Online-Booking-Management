@@ -19,9 +19,9 @@ const PageAbout: FC<PageAboutProps> = ({}) => {
       <div className="container py-16 lg:py-28 space-y-16 lg:space-y-28">
         <SectionHero
           rightImg={rightImg}
-          heading="👋 About Us."
+          heading="👋 Biz haqimizda."
           btnText=""
-          subHeading="We’re impartial and independent, and every day we create distinctive, world-class programmes and content which inform, educate and entertain millions of people in the around the world."
+          subHeading="Biz xolis va mustaqilmiz, har kuni millionlab odamlarni xabardor qiluvchi, o‘rgatuvchi va ko‘ngil ochar dunyo darajasidagi dasturlar va kontent yaratamiz."
         />
 
         <SectionFounder />

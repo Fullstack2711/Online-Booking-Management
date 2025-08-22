@@ -17,34 +17,35 @@ export interface SectionVideosProps {
   className?: string;
 }
 
+// ...existing code...
 const VIDEOS_DEMO: VideoType[] = [
   {
     id: "Ao7e4iisKMs",
-    title: "Magical Scotland - 4K Scenic Relaxation Film with Calming Music",
+    title: "Sehrli Shotlandiya - 4K manzarali dam olish filmi va tinchlantiruvchi musiqa",
     thumbnail:
       "https://images.pexels.com/photos/131423/pexels-photo-131423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
   {
     id: "a5V6gdu5ih8",
-    title: "Magical Scotland - 4K Scenic Relaxation Film with Calming Music",
+    title: "Sehrli Shotlandiya - 4K manzarali dam olish filmi va tinchlantiruvchi musiqa",
     thumbnail:
       "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
   {
     id: "MuB7HHeuNbc",
-    title: "Magical Scotland - 4K Scenic Relaxation Film with Calming Music",
+    title: "Sehrli Shotlandiya - 4K manzarali dam olish filmi va tinchlantiruvchi musiqa",
     thumbnail:
       "https://images.pexels.com/photos/1660995/pexels-photo-1660995.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
   {
     id: "eEaZvEZye84",
-    title: "Magical Scotland - 4K Scenic Relaxation Film with Calming Music",
+    title: "Sehrli Shotlandiya - 4K manzarali dam olish filmi va tinchlantiruvchi musiqa",
     thumbnail:
       "https://images.pexels.com/photos/4983184/pexels-photo-4983184.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
   {
     id: "EuDJZDaSP0Q",
-    title: "Magical Scotland - 4K Scenic Relaxation Film with Calming Music",
+    title: "Sehrli Shotlandiya - 4K manzarali dam olish filmi va tinchlantiruvchi musiqa",
     thumbnail:
       "https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
@@ -131,7 +132,7 @@ const SectionVideos: FC<SectionVideosProps> = ({
         desc="Check out our hottest videos. View more and share more new
           perspectives on just about any topic. Everyone’s welcome."
       >
-        🎬 The Videos
+    🎬 Videolar
       </Heading>
 
       <div className="flex flex-col relative sm:pr-4 sm:py-4 md:pr-6 md:py-6 xl:pr-14 xl:py-14 lg:flex-row">

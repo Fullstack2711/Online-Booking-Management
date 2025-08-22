@@ -30,39 +30,36 @@ const SectionOurFeatures: FC<SectionOurFeaturesProps> = ({
         }`}
       >
         <span className="uppercase text-sm text-gray-400 tracking-widest">
-          BENnefits
+          Afzalliklar
         </span>
-        <h2 className="font-semibold text-4xl mt-5">Happening cities </h2>
+        <h2 className="font-semibold text-4xl mt-5">Mashhur shaharlar</h2>
 
         <ul className="space-y-10 mt-16">
           <li className="space-y-4">
-            <Badge name="Advertising" />
+            <Badge name="Reklama" />
             <span className="block text-xl font-semibold">
-              Cost-effective advertising
+              Tejamkor reklama
             </span>
             <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-              With a free listing, you can advertise your rental with no upfront
-              costs
+              Bepul ro‘yxatdan o‘tish orqali siz ijarangizni oldindan to‘lovsiz reklama qilishingiz mumkin
             </span>
           </li>
           <li className="space-y-4">
-            <Badge color="green" name="Exposure " />
+            <Badge color="green" name="Ko‘rinish" />
             <span className="block text-xl font-semibold">
-              Reach millions with Chisfis
+              Chisfis bilan millionlarga yeting
             </span>
             <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-              Millions of people are searching for unique places to stay around
-              the world
+              Millionlab odamlar dunyo bo‘ylab noyob turar joylarni izlamoqda
             </span>
           </li>
           <li className="space-y-4">
-            <Badge color="red" name="Secure" />
+            <Badge color="red" name="Xavfsiz" />
             <span className="block text-xl font-semibold">
-              Secure and simple
+              Xavfsiz va oson
             </span>
             <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
-              A Holiday Lettings listing gives you a secure and easy way to take
-              bookings and payments online
+              Holiday Lettings ro‘yxati sizga bron va to‘lovlarni onlayn tarzda xavfsiz va oson qabul qilish imkonini beradi
             </span>
           </li>
         </ul>

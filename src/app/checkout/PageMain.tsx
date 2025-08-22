@@ -52,33 +52,33 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
           <div className="py-5 sm:px-5 space-y-3">
             <div>
               <span className="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-1">
-                Hotel room in Tokyo, Jappan
+                Tokiodagi mehmonxona xonasi
               </span>
               <span className="text-base font-medium mt-1 block">
-                The Lounge & Bar
+                Lounge & Bar
               </span>
             </div>
             <span className="block  text-sm text-neutral-500 dark:text-neutral-400">
-              2 beds · 2 baths
+              2 ta yotoq · 2 ta hammom
             </span>
             <div className="w-10 border-b border-neutral-200  dark:border-neutral-700"></div>
             <StartRating />
           </div>
         </div>
         <div className="flex flex-col space-y-4">
-          <h3 className="text-2xl font-semibold">Price detail</h3>
+          <h3 className="text-2xl font-semibold">Narx tafsilotlari</h3>
           <div className="flex justify-between text-neutral-6000 dark:text-neutral-300">
             <span>$19 x 3 day</span>
             <span>$57</span>
           </div>
           <div className="flex justify-between text-neutral-6000 dark:text-neutral-300">
-            <span>Service charge</span>
+            <span>Xizmat haqi</span>
             <span>$0</span>
           </div>
 
           <div className="border-b border-neutral-200 dark:border-neutral-700"></div>
           <div className="flex justify-between font-semibold">
-            <span>Total</span>
+            <span>Jami</span>
             <span>$57</span>
           </div>
         </div>
@@ -90,23 +90,23 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
     return (
       <div className="w-full flex flex-col sm:rounded-2xl sm:border border-neutral-200 dark:border-neutral-700 space-y-8 px-0 sm:p-6 xl:p-8">
         <h2 className="text-3xl lg:text-4xl font-semibold">
-          Confirm and payment
+          Tasdiqlash va to‘lov
         </h2>
         <div className="border-b border-neutral-200 dark:border-neutral-700"></div>
         <div>
           <div>
-            <h3 className="text-2xl font-semibold">Your trip</h3>
+            <h3 className="text-2xl font-semibold">Safaringiz</h3>
             <NcModal
               renderTrigger={(openModal) => (
                 <span
                   onClick={() => openModal()}
                   className="block lg:hidden underline  mt-1 cursor-pointer"
                 >
-                  View booking details
+                  Buyurtma tafsilotlarini ko‘rish
                 </span>
               )}
               renderContent={renderSidebar}
-              modalTitle="Booking details"
+              modalTitle="Buyurtma tafsilotlari"
             />
           </div>
           <div className="mt-6 border border-neutral-200 dark:border-neutral-700 rounded-3xl flex flex-col sm:flex-row divide-y sm:divide-x sm:divide-y-0 divide-neutral-200 dark:divide-neutral-700 overflow-hidden z-10">
@@ -118,7 +118,7 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
                   type="button"
                 >
                   <div className="flex flex-col">
-                    <span className="text-sm text-neutral-400">Date</span>
+                    <span className="text-sm text-neutral-400">Sana</span>
                     <span className="mt-1.5 text-lg font-semibold">
                       {converSelectedDateToString([startDate, endDate])}
                     </span>
@@ -136,13 +136,10 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
                   className="text-left flex-1 p-5 flex justify-between space-x-5 hover:bg-neutral-50 dark:hover:bg-neutral-800"
                 >
                   <div className="flex flex-col">
-                    <span className="text-sm text-neutral-400">Guests</span>
+                    <span className="text-sm text-neutral-400">Mehmonlar</span>
                     <span className="mt-1.5 text-lg font-semibold">
                       <span className="line-clamp-1">
-                        {`${
-                          (guests.guestAdults || 0) +
-                          (guests.guestChildren || 0)
-                        } Guests, ${guests.guestInfants || 0} Infants`}
+                        {`${(guests.guestAdults || 0) + (guests.guestChildren || 0)} mehmon, ${guests.guestInfants || 0} chaqaloq`}
                       </span>
                     </span>
                   </div>
@@ -154,7 +151,7 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
         </div>
 
         <div>
-          <h3 className="text-2xl font-semibold">Pay with</h3>
+          <h3 className="text-2xl font-semibold">To‘lov usuli</h3>
           <div className="w-14 border-b border-neutral-200 dark:border-neutral-700 my-5"></div>
 
           <div className="mt-6">
@@ -182,7 +179,7 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
                           : " text-neutral-6000 dark:text-neutral-400 hover:bg-neutral-100 dark:hover:bg-neutral-800"
                       }`}
                     >
-                      <span className="mr-2.5">Credit card</span>
+                      <span className="mr-2.5">Kredit karta</span>
                       <Image className="w-8" src={visaPng} alt="visa" />
                       <Image
                         className="w-8"
@@ -197,16 +194,16 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
               <Tab.Panels>
                 <Tab.Panel className="space-y-5">
                   <div className="space-y-1">
-                    <Label>Card number </Label>
+                    <Label>Karta raqami </Label>
                     <Input defaultValue="111 112 222 999" />
                   </div>
                   <div className="space-y-1">
-                    <Label>Card holder </Label>
+                    <Label>Karta egasi </Label>
                     <Input defaultValue="JOHN DOE" />
                   </div>
                   <div className="flex space-x-5  ">
                     <div className="flex-1 space-y-1">
-                      <Label>Expiration date </Label>
+                      <Label>Muddati </Label>
                       <Input type="date" defaultValue="MM/YY" />
                     </div>
                     <div className="flex-1 space-y-1">
@@ -215,10 +212,10 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
                     </div>
                   </div>
                   <div className="space-y-1">
-                    <Label>Messager for author </Label>
+                    <Label>Muallifga xabar </Label>
                     <Textarea placeholder="..." />
                     <span className="text-sm text-neutral-500 block">
-                      Write a few sentences about yourself.
+                      O‘zingiz haqingizda bir necha jumla yozing.
                     </span>
                   </div>
                 </Tab.Panel>
@@ -228,21 +225,21 @@ const CheckOutPagePageMain: FC<CheckOutPagePageMainProps> = ({
                     <Input type="email" defaultValue="example@gmail.com" />
                   </div>
                   <div className="space-y-1">
-                    <Label>Password </Label>
+                    <Label>Parol </Label>
                     <Input type="password" defaultValue="***" />
                   </div>
                   <div className="space-y-1">
-                    <Label>Messager for author </Label>
+                    <Label>Muallifga xabar </Label>
                     <Textarea placeholder="..." />
                     <span className="text-sm text-neutral-500 block">
-                      Write a few sentences about yourself.
+                      O‘zingiz haqingizda bir necha jumla yozing.
                     </span>
                   </div>
                 </Tab.Panel>
               </Tab.Panels>
             </Tab.Group>
             <div className="pt-8">
-              <ButtonPrimary href={"/pay-done"}>Confirm and pay</ButtonPrimary>
+              <ButtonPrimary href={"/pay-done"}>Tasdiqlash va to‘lash</ButtonPrimary>
             </div>
           </div>
         </div>

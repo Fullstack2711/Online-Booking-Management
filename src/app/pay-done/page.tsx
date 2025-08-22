@@ -10,14 +10,14 @@ const PayPage: FC<PayPageProps> = () => {
     return (
       <div className="w-full flex flex-col sm:rounded-2xl space-y-10 px-0 sm:p-6 xl:p-8">
         <h2 className="text-3xl lg:text-4xl font-semibold">
-          Congratulation 🎉
+          Tabriklaymiz 🎉
         </h2>
 
         <div className="border-b border-neutral-200 dark:border-neutral-700"></div>
 
         {/* ------------------------ */}
         <div className="space-y-6">
-          <h3 className="text-2xl font-semibold">Your booking</h3>
+          <h3 className="text-2xl font-semibold">Buyurtmangiz</h3>
           <div className="flex flex-col sm:flex-row sm:items-center">
             <div className="flex-shrink-0 w-full sm:w-40">
               <div className=" aspect-w-4 aspect-h-3 sm:aspect-h-4 rounded-2xl overflow-hidden">
@@ -32,14 +32,14 @@ const PayPage: FC<PayPageProps> = () => {
             <div className="pt-5  sm:pb-5 sm:px-5 space-y-3">
               <div>
                 <span className="text-sm text-neutral-500 dark:text-neutral-400 line-clamp-1">
-                  Hotel room in Tokyo, Jappan
+                  Tokiodagi mehmonxona xonasi
                 </span>
                 <span className="text-base sm:text-lg font-medium mt-1 block">
-                  The Lounge & Bar
+                  Lounge & Bar
                 </span>
               </div>
               <span className="block  text-sm text-neutral-500 dark:text-neutral-400">
-                2 beds · 2 baths
+                2 ta yotoq · 2 ta hammom
               </span>
               <div className="w-10 border-b border-neutral-200  dark:border-neutral-700"></div>
               <StartRating />
@@ -63,7 +63,7 @@ const PayPage: FC<PayPageProps> = () => {
               </svg>
 
               <div className="flex flex-col">
-                <span className="text-sm text-neutral-400">Date</span>
+                <span className="text-sm text-neutral-400">Sana</span>
                 <span className="mt-1.5 text-lg font-semibold">
                   Aug 12 - 16, 2021
                 </span>
@@ -86,7 +86,7 @@ const PayPage: FC<PayPageProps> = () => {
               </svg>
 
               <div className="flex flex-col">
-                <span className="text-sm text-neutral-400">Guests</span>
+                <span className="text-sm text-neutral-400">Mehmonlar</span>
                 <span className="mt-1.5 text-lg font-semibold">3 Guests</span>
               </div>
             </div>
@@ -95,28 +95,28 @@ const PayPage: FC<PayPageProps> = () => {
 
         {/* ------------------------ */}
         <div className="space-y-6">
-          <h3 className="text-2xl font-semibold">Booking detail</h3>
+          <h3 className="text-2xl font-semibold">Buyurtma tafsilotlari</h3>
           <div className="flex flex-col space-y-4">
             <div className="flex text-neutral-6000 dark:text-neutral-300">
-              <span className="flex-1">Booking code</span>
+              <span className="flex-1">Buyurtma kodi</span>
               <span className="flex-1 font-medium text-neutral-900 dark:text-neutral-100">
                 #222-333-111
               </span>
             </div>
             <div className="flex text-neutral-6000 dark:text-neutral-300">
-              <span className="flex-1">Date</span>
+              <span className="flex-1">Sana</span>
               <span className="flex-1 font-medium text-neutral-900 dark:text-neutral-100">
                 12 Aug, 2021
               </span>
             </div>
             <div className="flex text-neutral-6000 dark:text-neutral-300">
-              <span className="flex-1">Total</span>
+              <span className="flex-1">Jami</span>
               <span className="flex-1 font-medium text-neutral-900 dark:text-neutral-100">
                 $199
               </span>
             </div>
             <div className="flex justify-between text-neutral-6000 dark:text-neutral-300">
-              <span className="flex-1">Payment method</span>
+              <span className="flex-1">To‘lov usuli</span>
               <span className="flex-1 font-medium text-neutral-900 dark:text-neutral-100">
                 Credit card
               </span>
@@ -124,7 +124,7 @@ const PayPage: FC<PayPageProps> = () => {
           </div>
         </div>
         <div>
-          <ButtonPrimary href="/">Explore more stays</ButtonPrimary>
+          <ButtonPrimary href="/">Ko‘proq turar joylarni ko‘rish</ButtonPrimary>
         </div>
       </div>
     );
